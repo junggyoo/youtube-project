@@ -16,4 +16,8 @@ code {
     monospace;
 }
 
+#root {
+  display: flex;
+  justify-content: center;
+}
 
