@@ -12,7 +12,7 @@ function App({youtube}) {
   const selectVideo = (video) => {
     setSelectedVideo(video);
   };
-
+  
   const handleSearch = useCallback((query) => {
     setSelectedVideo(null);
     youtube
